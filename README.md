@@ -37,7 +37,3 @@ Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-s
 
 Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 ```
-
-### Explicação:
-- **Emojis**: Adicionei alguns emojis para tornar o README mais visualmente interessante, sem perder a clareza e profissionalismo.
-- **Seção de Projetos**: Usei títulos mais descritivos e emojis para diferenciar os tipos de projetos, mas como você ainda não tem todos, pode preencher conforme for completando os projetos.
