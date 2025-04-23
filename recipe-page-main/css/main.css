@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: "fonte1" ;
+    src: url('/recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: "fonte2";
+    src: url('/recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+}
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 2vh;
+    font-family: "fonte2";
+    background-color: hsl(30, 54%, 90%);
+    color:hsl(24, 5%, 18%);
+    font-size: 16px;
+    line-height: 2;
+}
+img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 0;
+
+}
+.container {
+    padding: 0vh;
+    margin: 0.5vh 5vh 0.5vh 5vh;
+    font-weight: 400;
+
+}
+.container > h1{
+    font-family: "fonte2";
+    color: hsl(24, 5%, 18%);
+}
+.div-container {
+    background-color:  hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    margin: 5vh auto;
+    max-width: 700px;
+    padding: 2rem;
+    border-radius: 10px;
+    color: hsl(30, 10%, 34%);
+    font-family: "Poppins";
+
+}
+
+.preparation-time {
+    padding: 1vh 0 0 5vh;
+    margin: 0.5vh 5vh 0.5vh 5vh;
+    background-color: hsl(330, 100%, 98%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    font-family: "Poppins";
+}
+
+.preparation-time > h3 {
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+    margin: 5px;
+}
+
+.preparation-time > ul{
+    padding: 0 0 0 16px;
+}
+
+ul > li::marker {
+    color:hsl(14, 45%, 36%);
+}
+
+.container > h1 {
+    font-weight: 400;
+}
+
+.ingredients {
+    padding: 0;
+    margin: 1rem 2rem;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    font-family: "Poppins";
+}
+.ingredients > ul {
+    padding: 0 0 0 16px;
+}
+.instructions {
+    padding: 0;
+    margin: 1rem 2rem;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    font-family: "Poppins";
+}
+.instructions > ol {
+    padding: 0 0 0 16px;
+}
+ol > li::marker {
+    color:hsl(14, 45%, 36%);
+    font-weight: 400;
+}
+.nutrition{
+    padding: 0;
+    padding-bottom: 2vh;
+    margin: 1rem 2rem;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "fonte2";
+    font-weight: 400;
+}
+
+table {
+    border-spacing: 50px 10px;
+    border-collapse: collapse;
+}
+tr{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+td{
+    padding: 12px 54px;
+
+}
+
+table td:nth-child(2) {
+    color: hsl(14, 45%, 36%); 
+    font-weight: 400;
+}
+.attribution {
+    font-size: 12px;
+    text-align: center;
+    color:  hsl(30, 10%, 34%);
+}
+.attribution > a {
+    color:hsl(14, 45%, 36%);
+    text-decoration: none;
+}
+.attribution > a:hover{
+    color: hsl(332, 51%, 32%);
+}
+
+@media (max-width: 768px) {
+    .div-container {
+      margin: 2vh 1rem;
+    }
+  
+    img {
+      margin: 0;
+    }
+  
+    .container,
+    .preparation-time,
+    .ingredients,
+    .instructions,
+    .nutrition {
+      margin: 1rem;
+    }
+  
+    table {
+      width: 100%;
+      border-spacing: 10px;
+    }
+  
+    td {
+      padding: 10px;
+    }
+  }
+
+  @media (max-width: 375px) {
+    body {
+      padding: 1rem;
+      font-size: 15px;
+    }
+  
+    .div-container {
+      margin: 1rem auto;
+      padding: 1rem;
+    }
+  
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      margin: 0;
+    }
+  
+    .container,
+    .preparation-time,
+    .ingredients,
+    .instructions,
+    .nutrition {
+      margin: 1rem 0;
+      padding: 0 1rem;
+    }
+  
+    table {
+      width: 100%;
+      border-spacing: 0;
+    }
+  
+    td {
+      padding: 10px;
+    }
+  }
+  
