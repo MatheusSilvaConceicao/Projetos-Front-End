@@ -36,4 +36,4 @@ Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-s
 ## 📄 Licença
 
 Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
-```
+
