@@ -1,4 +1,3 @@
-```markdown
 # 🖥️ Projetos Front-End
 
 Este repositório contém uma coleção de projetos de desenvolvimento front-end, com foco em HTML, CSS e JavaScript, do básico ao avançado. Cada projeto foi desenvolvido para demonstrar meu aprendizado e evolução nas tecnologias web, criando interfaces interativas e responsivas.
